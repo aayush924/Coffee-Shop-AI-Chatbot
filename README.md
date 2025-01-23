@@ -51,27 +51,3 @@ The React Native Coffee Shop App serves as the front-end interface for customers
 * **Item Details Page:** Provides detailed descriptions, including ingredients and allergens for each item.
 * **Cart Page:** Allows users to review and modify their order before checkout.
 * **Chatbot Interface:** Enables customers to interact directly with the AI chatbot for order assistance, recommendations, and queries.
-
-# 📂 Directory Structure
-```bash
-├── coffee_shop_customer_service_chatbot
-│   ├── coffee_shop_app_folder # Contains React Native app code   
-│   ├── python_code
-│       ├── API/               # Chatbot API for agent-based system
-│       ├── dataset/           # Dataset for training recommendation engine    
-│       ├── products/          # Product data (names, prices, descriptions, images)   
-│       ├── build_vector_database.ipynb             # Builds vector database for RAG model   
-│       ├── firebase_uploader.ipynb                 # Uploads products to Firebase    
-│       ├── recommendation_engine_training.ipynb    # Trains recommendation engine 
-```
-
-## 🚀 Getting Started
-Each folder has their own getting started section. So this way we can deploy the front end, backend and setup individually. 
-
-## 🔗 Refrence Links
-* [RunPod](https://rebrand.ly/Runpod-Abdullah): RunPod Official Site - Infrastructure for deploying and scaling machine learning models.
-* [Kaggle Dataset]([https://www.kaggle.com/datasets/ylchang/](https://www.kaggle.com/datasets/ylchang/coffee-shop-sample-data-1113)): Source of the dataset used for training the recommendation engine.
-* [Figma app design](https://www.figma.com/design/PKEMJtsntUgQcN5xAIelkx/Coffee-Shop-Mobile-App-Design-(Community)?node-id=421-1221&node-type=FRAME&t=bakGV2g59KQ7cPBi-0): - The design mockups for the coffee shop app, providing a visual guide for the user interface and experience.
-* [Hugging Face](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct): Hugging Face Models - Repository for Llama LLms, a state-of-the-art NLP model used in our chatbot.
-* [Pinecone](https://docs.pinecone.io/guides/get-started/quickstart): Pinecone Documentation - Documentation for the vector database used in the project.
-* [Firebase](https://firebase.google.com/docs): Firebase Documentation - Comprehensive guide for using Firebase to manage app data for the coffee shop app.
